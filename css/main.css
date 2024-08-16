@@ -1,0 +1,228 @@
+@font-face {
+    font-family: 'Dancing Script';
+    src: url('../fonts/DancingScript-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+}
+h1, h2, h3 , h4, h5, h6 {
+    font-family: "Alegreya", serif; 
+    font-weight: 400;
+
+}
+
+.header {
+    background-image: url(../img/backgrond.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+
+.container {
+    width: 75%;
+    margin: auto;
+}
+
+.header-content {
+    text-align: center;
+}
+
+.header-content h1 {
+    font-family: 'Alegreya';
+    font-size: 76px;
+    font-weight: 400;
+    line-height: 91.2px;
+    color: rgb(255, 255, 255)
+}
+
+
+
+.header-content p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 74.4px;
+    color: rgba(255, 255, 255, 0.92)
+}
+
+.navList ul {
+    text-decoration: none;
+    font-family: "Alegreya Sans", sans-serif;
+    text-align: left;
+   
+}
+
+.header a {
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 7px;
+    display: inline-block;
+    font-weight: 900;
+    border: none;
+
+}
+.btn {
+    margin-top: 10px;
+}
+.learn-more {
+    background-color: rgb(169, 132, 87);
+    color: white;
+}
+
+.book-visit {
+    background-color: white;
+    color: black;
+}
+
+.img-about {
+    display: inline-block;
+    width: 45%;
+
+}
+
+.navList {
+    float: right;
+
+}
+
+.navList li a {
+    color: white;
+}
+
+.logo {
+    float: left;
+}
+
+.logo img {
+    width: 160px;
+    margin-top: 10px;
+}
+
+.navList li {
+    float: left;
+}
+
+/* **************************** */
+.about { 
+    margin-top: 50px;
+    height: 100vh;
+
+}
+.info-about {
+    float: right;
+    width: 50%;
+    margin-top: 100px;
+
+}
+
+.info-about h3 {
+    color: #c1ab84;
+    margin-bottom: 20px;
+    font-family: 'Dancing Script', cursive;
+    font-size :28px;
+    line-height:38.64px ;
+}
+
+.info-about h2 {
+    margin-bottom: 20px;
+    font-family: "Alegreya";
+    font-size:36px ;
+    font-weight: 400;
+    line-height: 49.68px;
+    color:rgb(37, 48, 72)
+}
+
+.info-about p {
+    width: 75%;
+    margin: auto;
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33.48px;
+    color: rgb(104, 104, 104)
+}  
+.info-about ul li i {
+    background-color: c1ab84;
+    color: white;
+    border-radius: 50%;
+    padding: 15px;
+    margin-right: 2px;
+    line-height: 15px;
+    margin-bottom: 5px;
+}
+
+.img-about img {
+    width: 100%;
+}
+
+
+span {
+    margin-left: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.item {
+    float: left;
+    width: 33.33%;
+}
+
+.menu {
+    background-color: rgb(246, 246, 246);
+
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.menu h2 {
+    text-align: center;
+}
+
+.items h3 {
+    margin-top: 10px;
+    text-align: center;
+    font-family: "Alegreya", serif;
+    font-weight: 400;
+
+}
+
+.items p {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 80%;
+    line-height: 30px;
+    color: rgb(37, 48, 72);
+}
+
+.clearFix {
+    clear: both;
+}
+
+.item img {
+    height: 300px;
+    width: 300px;
+
+}
+.reviews{
+    background-color: #f8f8f8;
+    margin-top: 150px;
+    height: 100vh;
+}
+
+.reviews-img img {
+    margin-top: 80px;
+    float: right;
+    width: 500;
+    height: 340;
+}
